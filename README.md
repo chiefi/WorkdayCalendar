@@ -1,6 +1,8 @@
 # WorkdayCalendar
 Contains code for solving the WorkdayCalendar task.
 
+[![.NET](https://github.com/chiefi/WorkdayCalendar/actions/workflows/dotnet.yml/badge.svg)](https://github.com/chiefi/WorkdayCalendar/actions/workflows/dotnet.yml)
+
 
 ### Problem description 
 We need a way to calculate where we end up if we go back or forth x number of working days, from a given point in time.
