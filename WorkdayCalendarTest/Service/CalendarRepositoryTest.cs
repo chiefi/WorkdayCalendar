@@ -133,7 +133,7 @@ public class CalendarRepositoryTest
         calendarRepository.Save();
 
         // Assert
-        fileServiceMoq.Verify(x => x.WriteSettings("{\r\n  \"Holidays\": [],\r\n  \"RecurringHolidays\": [],\r\n  \"StartOfWorkday\": \"00:00\",\r\n  \"EndOfWorkday\": \"00:00\"\r\n}"), Times.Once());
+        fileServiceMoq.Verify(x => x.WriteSettings(It.IsAny<string>()), Times.Once());
         calendarConfigurationConverter.Verify(x => x.ToConfiguration(It.IsAny<Calendar>()), Times.Once());
     }
 
