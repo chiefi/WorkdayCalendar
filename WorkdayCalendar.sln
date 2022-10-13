@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkdayCalendar", "WorkdayCalendar\WorkdayCalendar.csproj", "{BB2B3356-65CB-4567-8D27-25BB3F16BF7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkdayCalendarTest", "WorkdayCalendarTest\WorkdayCalendarTest.csproj", "{F91745E1-2C6F-4292-9C1A-DDB37535A24C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkdayCalendarLibrary", "WorkdayCalendarLibrary\WorkdayCalendarLibrary.csproj", "{EF56FF57-10A8-4114-B479-628DD64C45A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB2B3356-65CB-4567-8D27-25BB3F16BF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2B3356-65CB-4567-8D27-25BB3F16BF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2B3356-65CB-4567-8D27-25BB3F16BF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2B3356-65CB-4567-8D27-25BB3F16BF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F91745E1-2C6F-4292-9C1A-DDB37535A24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91745E1-2C6F-4292-9C1A-DDB37535A24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91745E1-2C6F-4292-9C1A-DDB37535A24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91745E1-2C6F-4292-9C1A-DDB37535A24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF56FF57-10A8-4114-B479-628DD64C45A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF56FF57-10A8-4114-B479-628DD64C45A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF56FF57-10A8-4114-B479-628DD64C45A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF56FF57-10A8-4114-B479-628DD64C45A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {055D473F-D51D-4D86-A245-ABFC415DA0BA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WorkdayCalendar": {
+      "commandName": "Project",
+      "commandLineArgs": "interactive"
+    }
+  }
+}
